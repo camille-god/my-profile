@@ -1,0 +1,106 @@
+/* Colors and fonts */
+body {
+  background:#ECD8CC;
+  color:black;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+h2, h3 {
+  font-family:'Roboto', sans-serif;
+}
+.btn-beige {
+  font-family: 'Roboto', serif;
+}
+h1{
+  font-family: 'Dancing Script';
+  color:black;
+  font-size: 40px;
+  font-weight: 900;
+}
+h2{
+  color: #916dd5;
+  font-size: 20px;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color:#EFBBCF;
+}
+
+/* Custom design with class*/
+.container {
+  width:700px;
+  margin:40px auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px){
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px){
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-lightbeige{
+  background-color: #fffafa;                 /* White background */
+  padding:40px;                             /* Internal space */
+  border-radius: 4px;                       /* Small radius */
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1); /* Light shadow */
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  height:205px;
+  width:200px;
+  border-radius:50%
+}
+.btn-beige {
+  background-color:#cbaf87;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.btn-beige:hover {
+  background-color: transparent;
+  border: black;
+  color:black;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #cbaf87;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id*/
+#introduction p {
+  margin-bottom: 40px;
+}
